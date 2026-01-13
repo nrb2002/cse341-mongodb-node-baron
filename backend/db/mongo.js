@@ -11,7 +11,7 @@ async function connectDB() {
   await client.connect();
   const db = client.db("professionalDB");
   collection = db.collection("professional");
-  console.log("Connected to MongoDB Atlas");
+  console.log("Connected to MongoDB Atlas!");
 }
 
 function getCollection() {
